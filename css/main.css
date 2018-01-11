@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
+  background-color: #eee9de;
 }
 
 *, *::before, *::after {
@@ -9,4 +10,118 @@ html {
 
 img {
   width: 100%;
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 2.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  vertical-align: middle;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 1rem;
+  margin-bottom: 1.7rem;
+}
+
+p {
+  text-align: left;
+  margin-left: 1rem;
+  line-height: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  max-width: none;
+  border: 3px solid #333;
+  border-radius: 8px;
+  padding: .8rem;
+  margin-bottom: 2rem;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width: 100%;
+    display: block;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+    padding-top: .2rem;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: left;
+    margin-left: 7.4rem;
+    margin-bottom: 1.7rem;
+  }
+
+  p {
+    text-align: left;
+    margin-left: 7.4rem;
+    margin-right: 9rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    width: 100%;
+    display: inline-block;
+    padding-left: 6rem;
+    padding-right: 31rem;
+    padding-top: .7rem;
+    text-align: center;
+  }
+
+  section {
+    position: relative;
+  }
+
+  h2 {
+    text-align: left;
+    margin-left: 7.4rem;
+    margin-bottom: 1.7rem;
+    position: absolute;
+    top: 30px;
+    left: 380px;
+  }
+
+  p {
+    text-align: left;
+    margin-left: 7.4rem;
+    margin-right: 9rem;
+    line-height: 1.5rem;
+    position: absolute;
+    top: 96px;
+    left: 380px;
+  }
+
+  .btn {
+    top: 270px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  img {
+    width: 100%;
+    display: inline-block;
+    padding-left: 20rem;
+    padding-right: 47rem;
+    padding-top: .7rem;
+    text-align: center;
+  }
+
+  .btn {
+    top: 270px;
+    color: #666;
+  }
 }
